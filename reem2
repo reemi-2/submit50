@@ -1,0 +1,9 @@
+name=input("please enter avariable name in camel. case")
+snake=''
+
+for [i] in range(len(name)):
+    if name [i] . isupper():
+      snake=snake + '-'
+    else:
+       snake+=name [i]
+       print(snake)
